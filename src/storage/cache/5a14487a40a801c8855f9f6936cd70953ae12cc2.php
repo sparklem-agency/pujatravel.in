@@ -36,8 +36,8 @@
 
     <!-- mobile menu -->
     <div class="fixed inset-0 backdrop-blur-lg z-50" @click="show=false" style="display: none" x-show="show"></div>
-    <div class="fixed -right-full bottom-0 top-0 min-h-screen w-full max-w-[250px] bg-gray-800 text-white transition-all duration-300 ease-in-out z-50"
-        :class="show ? 'right-0' : '-right-full'">
+    <div class="fixed -left-full bottom-0 top-0 min-h-screen w-full max-w-[250px] bg-blue-800 text-white transition-all duration-300 ease-in-out z-50"
+        :class="show ? 'left-0' : '-left-full'">
         <div class="px-3">
             <button class="py-5" type="button" @click="show=false">
                 <svg class="size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
