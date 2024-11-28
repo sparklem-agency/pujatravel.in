@@ -1,4 +1,4 @@
-<div class="overflow-hidden rounded-md  border bg-white  shadow-md" data-aos="flip-right">
+<div class="overflow-hidden rounded-md  border  bg-blue-950 text-white  shadow-md" data-aos="flip-right">
     <div class="h-52 overflow-hidden rounded-md">
         <img class="w-full" src="{{ $imageUrl }}" alt="">
     </div>

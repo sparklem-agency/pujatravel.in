@@ -1537,6 +1537,26 @@ body,
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#233b7b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 59 123 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#374da2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 77 162 / var(--tw-bg-opacity));
+}
+
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+
+.bg-blue-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+}
+
 .p-16 {
   padding: 4rem;
 }
