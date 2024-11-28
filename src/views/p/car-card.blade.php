@@ -40,7 +40,8 @@
         </div>
 
         <div class="grid grid-cols-2 gap-3 capitalize">
-            <a class=" flex items-center justify-center gap-2 bg-white text-black" href="tel:{{ env('PHONE_NUMBER') }}">
+            <a class=" flex items-center rounded-lg justify-center gap-2 bg-white text-black"
+                href="tel:{{ env('PHONE_NUMBER') }}">
 
                 <svg class="size-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="currentColor">
