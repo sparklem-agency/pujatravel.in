@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  html {
+    color-scheme: light !important;
+  }
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .heading {
+    @apply capitalize text-3xl;
+  }
+
+  .bg-grad-1 {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .max-width {
+    @apply mx-auto max-w-7xl;
+  }
+  .heading {
+    @apply text-center text-3xl font-medium;
+  }
+}
