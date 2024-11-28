@@ -4,7 +4,7 @@
     <div class="max-width mt-5 grid grid-cols-1 items-center gap-5 text-center lg:grid-cols-4 lg:text-left">
         <div class="space-y-5">
 
-            <svg version="1.1" class="size-10" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            <svg version="1.1" class="mx-auto size-20 lg:ml-0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
                 style="enable-background:new 0 0 100 100;" xml:space="preserve">
                 <g>
@@ -42,8 +42,8 @@
         </div>
 
         <div class="space-y-5">
-            <svg class="size-10" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.70666in"
-                height="1.70666in" version="1.1"
+            <svg class="mx-auto size-20 lg:ml-0" xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+                width="1.70666in" height="1.70666in" version="1.1"
                 style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                 viewBox="0 0 1707 1707" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
@@ -154,7 +154,8 @@
         </div>
 
         <div class="space-y-5">
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-10" xml:space="preserve" width="8in" height="8in"
+            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto size-20 lg:ml-0" xml:space="preserve" width="8in"
+                height="8in"
                 style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                 viewBox="0 0 8 8" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
@@ -202,7 +203,7 @@
         </div>
 
         <div class="space-y-5">
-            <svg class="size-10" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+            <svg class="mx-auto size-20 lg:ml-0" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"
                 style="enable-background:new 0 0 32 32;" xml:space="preserve">
                 <style type="text/css">

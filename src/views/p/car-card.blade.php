@@ -7,7 +7,7 @@
         <h2 class="text-xl font-medium">{{ $carname }}</h2>
 
         <div
-            class="grid grid-cols-3 items-center justify-center gap-5 text-xs -mt-5 bg-white  rounded-t-full z-10 relative w-fit px-3 pt-3 mx-auto">
+            class="grid grid-cols-3 items-center justify-center gap-5 text-xs -mt-5  rounded-t-full z-10 relative w-fit px-3 pt-3 mx-auto">
 
             <div class="grid place-items-center">
                 <svg class="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
