@@ -1,4 +1,4 @@
-<div class="bg-blue-500">
+<div class="bg-blue-500" data-aos="flip-right">
 
 
     <div class="max-width mt-10 grid w-full grid-cols-1 gap-5 lg:grid-cols-2 text-white py-10 p-5">
