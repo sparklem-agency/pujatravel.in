@@ -21,7 +21,7 @@
     <link rel="shortcut icon" href="{{ image_asset('favicon.png') }}" type="image/x-icon">
 </head>
 
-<body>
+<body class="bg-[#e7e6f8]">
     @include('p.navbar')
     <main>
         @yield('content')

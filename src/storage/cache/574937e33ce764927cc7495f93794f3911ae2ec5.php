@@ -21,7 +21,7 @@
     <link rel="shortcut icon" href="<?php echo e(image_asset('favicon.png')); ?>" type="image/x-icon">
 </head>
 
-<body>
+<body class="bg-[#e7e6f8]">
     <?php echo $__env->make('p.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     <main>
         <?php echo $__env->yieldContent('content'); ?>

@@ -22,7 +22,7 @@
                     Discover the heart of Northeast India with Anupama Travels—your gateway to unforgettable adventures
                 </div>
                 <div class="grid place-items-center">
-                    <div class="max-w-md">
+                    <div class="max-w-md w-full">
                         <?php echo $__env->make('p.contact-form', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                     </div>
                 </div>
