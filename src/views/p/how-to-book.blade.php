@@ -5,15 +5,7 @@
     ])
 
     <div class="mx-auto grid max-w-4xl grid-cols-1 gap-5 p-3 lg:grid-cols-2">
-        <div class="w-full">
-            <img class="w-full rounded-md" data-aos="flip-up" src="{{ image_asset('how-to-book-1.png') }}" alt="">
 
-            <div class="mt-3 grid grid-cols-2 gap-3">
-                <img class="rounded-md" data-aos="flip-right" src="{{ image_asset('how-to-book-2.png') }}" alt="">
-                <img class="rounded-md" data-aos="flip-left" src="{{ image_asset('how-to-book-3.png') }}"
-                    alt="">
-            </div>
-        </div>
 
         <div class="space-y-5">
             <div class="grid grid-cols-[100px_auto] rounded-lg bg-[#FFF0EC] p-5" data-aos="fade-up">
