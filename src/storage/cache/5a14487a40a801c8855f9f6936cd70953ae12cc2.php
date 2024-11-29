@@ -53,7 +53,7 @@
             <a class="block p-3" href="<?php echo e(url('/')); ?>">Home</a>
             <a class="block p-3" href="<?php echo e(url('/about')); ?>">About</a>
 
-            <a class="block px-3" href="#">
+            <button type="button" class="block px-3">
 
                 <div class="flex items-center gap-5" @click="show=!show">Pakcages
 
@@ -71,7 +71,7 @@
                         </a>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
-            </a>
+            </button>
             <a class="block p-3" href="<?php echo e(url('/contact')); ?>">Contact</a>
         </div>
     </div>
