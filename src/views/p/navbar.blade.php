@@ -8,7 +8,7 @@
 }">
     <div class="flex flex-col items-center gap-2 lg:flex-row lg:gap-5">
         <a href="{{ url('/') }}">
-            <img src="{{ image_asset('logo.png') }}?v=1" class="h-10 -ml-5 lg:ml-0" alt="">
+            <img src="{{ image_asset('logo.png') }}?v={{ env('APP_VERSION') }}" class="h-10 -ml-5 lg:ml-0" alt="">
         </a>
     </div>
 
