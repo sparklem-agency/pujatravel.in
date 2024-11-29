@@ -4,10 +4,10 @@
         'subheading' => 'Simplified Booking Method',
     ])
 
-    <div class="mx-auto grid max-w-4xl grid-cols-1 gap-5 p-3 lg:grid-cols-2">
+    <div>
 
 
-        <div class="space-y-5">
+        <div class="mx-auto grid  grid-cols-3 gap-5 p-3 ">
             <div class="grid grid-cols-[100px_auto] rounded-lg bg-[#FFF0EC] p-5" data-aos="fade-up">
                 <div>
                     <svg class="size-20" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"

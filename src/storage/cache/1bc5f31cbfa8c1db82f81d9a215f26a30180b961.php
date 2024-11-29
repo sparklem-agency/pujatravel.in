@@ -1,4 +1,4 @@
-<div class="overflow-hidden rounded-md  border  bg-blue-950 text-white  shadow-md" data-aos="flip-right">
+<div class="overflow-hidden capitalize rounded-md   bg-blue-950 text-white  shadow-md" data-aos="flip-right">
     <div class="h-52 overflow-hidden rounded-md">
         <img class="w-full" src="<?php echo e($imageUrl); ?>" alt="">
     </div>
@@ -43,7 +43,8 @@
         </div>
 
         <div class="grid grid-cols-2 gap-3 capitalize">
-            <a class=" flex items-center justify-center gap-2 bg-white text-black" href="tel:<?php echo e(env('PHONE_NUMBER')); ?>">
+            <a class=" flex items-center rounded-lg justify-center gap-2 bg-white text-black"
+                href="tel:<?php echo e(env('PHONE_NUMBER')); ?>">
 
                 <svg class="size-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="currentColor">

@@ -19,6 +19,7 @@
         rel="stylesheet">
 
     <link rel="shortcut icon" href="<?php echo e(image_asset('favicon.png')); ?>" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/turbolinks@5.2.0/dist/turbolinks.min.js"></script>
 </head>
 
 <body class="bg-[#e7e6f8]">
