@@ -98,15 +98,17 @@
                     <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                         Useful links
                     </h6>
-                    <p class="mb-4">
-                        <a href="{{ url('/') }}">Home</a>
-                    </p>
-                    <p class="mb-4">
-                        <a href="{{ url('/about') }}">about</a>
-                    </p>
-                    <p class="mb-4">
-                        <a href="{{ url('contact') }}">Contact us</a>
-                    </p>
+                    <div class="capitalize">
+                        <p class="mb-4">
+                            <a href="{{ url('/') }}">Home</a>
+                        </p>
+                        <p class="mb-4">
+                            <a href="{{ url('/about') }}">about</a>
+                        </p>
+                        <p class="mb-4">
+                            <a href="{{ url('contact') }}">Contact us</a>
+                        </p>
+                    </div>
                 </div>
                 <!-- Contact section -->
                 <div>
