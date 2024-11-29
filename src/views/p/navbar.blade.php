@@ -63,7 +63,7 @@
                     </svg>
                 </div>
 
-                <div x-show="show" x-transition style="display: none" class="ml-5 space-y-4">
+                <div x-show="show" x-transition style="display: none" class="ml-5 mt-5 space-y-4">
                     @foreach ($packages as $package)
                         <a class="block capitalize" href="{{ route('view-package', ['slug' => $package['slug']]) }}">
                             {{ $package['name'] }}
