@@ -8,7 +8,7 @@
 }">
     <div class="flex flex-col items-center gap-2 lg:flex-row lg:gap-5">
         <a href="<?php echo e(url('/')); ?>">
-            <img src="<?php echo e(image_asset('logo.png')); ?>?v=1" class="h-10 -ml-5 lg:ml-0" alt="">
+            <img src="<?php echo e(image_asset('logo.png')); ?>?v=<?php echo e(env('APP_VERSION')); ?>" class="h-10 -ml-5 lg:ml-0" alt="">
         </a>
     </div>
 
@@ -63,7 +63,7 @@
                     </svg>
                 </div>
 
-                <div x-show="show" x-transition style="display: none" class="ml-5 space-y-4">
+                <div x-show="show" x-transition style="display: none" class="ml-5 mt-5 space-y-4">
                     <?php $__currentLoopData = $packages; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $package): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="block capitalize" href="<?php echo e(route('view-package', ['slug' => $package['slug']])); ?>">
                             <?php echo e($package['name']); ?>

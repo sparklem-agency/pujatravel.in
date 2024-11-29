@@ -34,12 +34,13 @@
         <label for="package" class="block mb-2 text-sm font-medium  ">Select
             Package</label>
         <select id="package" x-model="package"
-            class="bg-gray-50 border border-gray-300 dark:text-white text-gray-900  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="bg-gray-50 border capitalize border-gray-300 dark:text-white text-gray-900  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
             required>
+
             @if ($c_package)
-                <option value="{{ $c_package }}" disabled>{{ $c_package }}</option>
+                <option value="{{ $c_package }}" selected>{{ $c_package }}</option>
             @else
-                <option value="Select" disabled>Select</option>
+                <option value="Select" selected>Select</option>
             @endif
 
             @foreach ($packages as $package)

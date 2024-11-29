@@ -1,8 +1,8 @@
-@extends('layouts.app')
 
-@section('title', 'About Us')
 
-@section('content')
+<?php $__env->startSection('title', 'About Us'); ?>
+
+<?php $__env->startSection('content'); ?>
 
     <div class="max-width">
         <div class=" mx-auto mt-5">
@@ -21,14 +21,16 @@
                 </div>
                 <div class="grid place-items-center">
                     <div class="max-w-md w-full">
-                        @include('p.contact-form')
+                        <?php echo $__env->make('p.contact-form', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                     </div>
                 </div>
             </div>
         </div>
         <div>
-            @include('p.booking-card')
+            <?php echo $__env->make('p.booking-card', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         </div>
     </div>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\office_work\pujatravel.in\src\views/about.blade.php ENDPATH**/ ?>

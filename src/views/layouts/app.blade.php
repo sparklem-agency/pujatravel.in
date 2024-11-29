@@ -71,10 +71,11 @@
                     <img src="{{ image_asset('logo.png') }}?v={{ env('APP_VERSION') }}" class="h-10 mx-auto lg:ml-0"
                         alt="">
                     <p class="mt-5">
-                        AnupamaTravels is a premier travel agency based in Northeast India, offering personalized tours
+                        {{ env('APP_NAME') }} is a premier travel agency based in Northeast India, offering personalized
+                        tours
                         to explore the region's scenic beauty, rich culture, and unique experiences. We specialize in
                         custom itineraries, expert guidance, and seamless travel services. Discover the hidden gems of
-                        Northeast India with AnupamaTravels! </p>
+                        Northeast India with Us! </p>
                 </div>
                 <!-- Products section -->
                 <div>

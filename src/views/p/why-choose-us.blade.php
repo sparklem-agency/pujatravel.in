@@ -36,8 +36,9 @@
                 </g>
             </svg>
             <h2 class="text-xl">Special Financing Offers</h2>
-            <p>Our stress free finance department that can
-                find financial solutions to save you money.
+            <p>
+                Unlock special financing options tailored to fit your budget. Drive your dream car with flexible terms
+                and affordable rates
             </p>
         </div>
 
@@ -145,11 +146,10 @@
                     </g>
                 </g>
             </svg>
-            <h2 class="text-xl">Trusted Car Dealership
+            <h2 class="text-xl">Dependable Car Dealership
             </h2>
-            <p>Our stress free finance department that can
-
-                find financial solutions to save you money
+            <p>Offering a wide range of quality vehicles to suit your needs. Trusted by customers for our reliability
+                and excellent service.
             </p>
         </div>
 
@@ -196,9 +196,8 @@
             </svg>
             <h2 class="text-xl">Transparent Pricing
             </h2>
-            <p>Our stress free finance department that can
-
-                find financial solutions to save you money.
+            <p>Honest, upfront pricing with no hidden fees. We believe in providing clear and fair costs for every
+                vehicle
             </p>
         </div>
 
@@ -235,9 +234,8 @@
             </svg>
             <h2 class="text-xl">Expert Car Service
             </h2>
-            <p>Our stress free finance department that can
-
-                find financial solutions to save you money.
+            <p>Skilled technicians dedicated to keeping your car in top condition. Trust us for reliable maintenance and
+                repair services
             </p>
         </div>
     </div>
