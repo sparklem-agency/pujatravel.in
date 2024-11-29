@@ -53,7 +53,7 @@
             <a class="block p-3" href="{{ url('/') }}">Home</a>
             <a class="block p-3" href="{{ url('/about') }}">About</a>
 
-            <a class="block px-3" href="#">
+            <button type="button" class="block px-3">
 
                 <div class="flex items-center gap-5" @click="show=!show">Pakcages
 
@@ -70,7 +70,7 @@
                         </a>
                     @endforeach
                 </div>
-            </a>
+            </button>
             <a class="block p-3" href="{{ url('/contact') }}">Contact</a>
         </div>
     </div>
