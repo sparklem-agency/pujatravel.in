@@ -1,13 +1,14 @@
 <?php
 // Specify the folder path
-$folderPath = __DIR__ . '../../../../public/images/galleries';
+$folderPath = $_SERVER['DOCUMENT_ROOT'] . '/public/images/galleries';
 
 // Allowed file extensions for images and videos
 $imageExtensions = ['jpg', 'jpeg', 'png', 'gif'];
 $videoExtensions = ['mp4', 'webm', 'ogg'];
 
+$scandir = scandir($folderPath);
 // Scan the folder
-$files = array_diff(scandir($folderPath), ['.', '..']);
+$files = array_diff($scandir ? $scandir : [], ['.', '..']);
 
 ?>
 @extends('layouts.app')
@@ -23,11 +24,11 @@ $files = array_diff(scandir($folderPath), ['.', '..']);
             @endphp
 
             @if (in_array($extension, $imageExtensions))
-                <img src="{{ image_asset('galleries/' . $file) }}" alt="" srcset="">
+                <img src="{{ image_asset('galleries/' . $file) }}" alt="" class="w-full" srcset="">
             @endif
 
             @if (in_array($extension, $videoExtensions))
-                <video width="320" height="240" controls>
+                <video width="320" height="240" controls class="w-full">
                     <source src="{{ image_asset('galleries/' . $file) }}">
 
                     Your browser does not support the video tag.

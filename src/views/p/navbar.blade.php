@@ -77,7 +77,7 @@
                 </div>
             </div>
 
-            <a class="block p-3" href="{{ url('galleries') }}"> Galleries</a>
+            <a class="block p-3" href="{{ url('galleries') }}"> Gallery</a>
 
             <a class="block p-3" href="{{ url('/contact') }}">Contact</a>
 
