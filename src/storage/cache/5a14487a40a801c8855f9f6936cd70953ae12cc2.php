@@ -31,7 +31,12 @@
             'label' => 'Packages',
             'items' => $formatted_list,
         ], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+        <a href="<?php echo e(url('galleries')); ?>">Gallery</a>
+
         <a href="<?php echo e(url('/contact')); ?>">Contact</a>
+
+
     </div>
 
     <!-- mobile menu -->
@@ -72,7 +77,13 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
             </div>
+
+            <a class="block p-3" href="<?php echo e(url('galleries')); ?>"> Galleries</a>
+
             <a class="block p-3" href="<?php echo e(url('/contact')); ?>">Contact</a>
+
+
+
         </div>
     </div>
 

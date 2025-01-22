@@ -27,7 +27,7 @@
                     <span>Call to book</span>
                 </a>
 
-                <a href="tel:<?php echo e(env('WHATSAPP_NUMBER')); ?>"
+                <a href="//wa.me/<?php echo e(env('WHATSAPP_NUMBER')); ?>"
                     class="capitalize justify-center p-3 rounded-md bg-white text-black flex items-center gap-1">
                     <svg class="size-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path

@@ -108,6 +108,10 @@
                         <p class="mb-4">
                             <a href="<?php echo e(url('contact')); ?>">Contact us</a>
                         </p>
+
+                        <p class="mb-4">
+                            <a href="<?php echo e(url('galleries')); ?>"> Galleries</a>
+                        </p>
                     </div>
                 </div>
                 <!-- Contact section -->

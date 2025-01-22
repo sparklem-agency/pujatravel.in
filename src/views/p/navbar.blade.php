@@ -31,7 +31,12 @@
             'label' => 'Packages',
             'items' => $formatted_list,
         ])
+
+        <a href="{{ url('galleries') }}">Gallery</a>
+
         <a href="{{ url('/contact') }}">Contact</a>
+
+
     </div>
 
     <!-- mobile menu -->
@@ -71,7 +76,13 @@
                     @endforeach
                 </div>
             </div>
+
+            <a class="block p-3" href="{{ url('galleries') }}"> Galleries</a>
+
             <a class="block p-3" href="{{ url('/contact') }}">Contact</a>
+
+
+
         </div>
     </div>
 

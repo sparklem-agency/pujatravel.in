@@ -27,7 +27,7 @@ Router::get('packages/{slug}', function (string $slug) {
 
     $package = find_package($slug);
 
-    if (!$package) {
+    if (! $package) {
         return abort(404, 'Page not found');
     }
 
@@ -41,5 +41,9 @@ Router::get('about', function () {
 Router::get('contact', function () {
     return view('contact');
 })->name('contact');
+
+Router::get('galleries', function () {
+    return view('galleries');
+})->name('galleries');
 
 Router::start();

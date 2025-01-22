@@ -22,7 +22,8 @@
                     From the misty hills of Meghalaya to the tranquil tea gardens of Assam and the majestic snow-capped
                     peaks of Arunachal Pradesh, our dedicated team ensures every journey is smooth and unforgettable.
 
-                    Explore the essence of Northeast India with Anupama Travels—your doorway to extraordinary adventures.
+                    Explore the essence of Northeast India with <?php echo e(env('APP_NAME')); ?>—your doorway to extraordinary
+                    adventures.
                 </div>
                 <div class="grid place-items-center">
                     <div class="max-w-md w-full">
