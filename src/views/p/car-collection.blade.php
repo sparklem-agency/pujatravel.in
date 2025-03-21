@@ -15,7 +15,7 @@
 
         @include('p.car-card', [
             'imageUrl' => image_asset('cars/traveller-force-26-car.png'),
-            'seatcount' => '5 seaters',
+            'seatcount' => '17/26 seaters',
             'carname' => 'traveller force 26  car',
             'cartype' => 'VAN/ BUS',
             'fueltype' => 'Diesel',
